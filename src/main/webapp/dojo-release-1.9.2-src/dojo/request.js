@@ -2,7 +2,7 @@ define([
 	'./request/default!'/*=====,
 	'./_base/declare',
 	'./promise/Promise' =====*/
-], function(request/*=====, declare, Promise =====*/){
+], function(requestDefault/*=====, declare, Promise =====*/){
 	/*=====
 	request = function(url, options){
 		// summary:
@@ -77,5 +77,5 @@ define([
 		// returns: dojo/request.__Promise
 	};
 	=====*/
-	return request;
+	return requestDefault;
 });

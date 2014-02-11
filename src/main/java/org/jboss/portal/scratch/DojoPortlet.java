@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.jboss.quickstarts.portal.simplest;
+package org.jboss.portal.scratch;
 
 import java.io.IOException;
 
@@ -26,7 +26,7 @@ import javax.portlet.RenderRequest;
 import javax.portlet.RenderResponse;
 
 /**
- * The simplest posible Portlet.
+ * A simple Dojo portlet.
  *
  * @author Peter Palaga
  */
@@ -34,6 +34,7 @@ public class DojoPortlet extends GenericPortlet {
 
     @Override
     public void doView(RenderRequest request, RenderResponse response) throws IOException, PortletException {
+        /* Nothing special here, just eval /jsp/dojo-portlet.jsp */
         PortletRequestDispatcher prd = getPortletContext().getRequestDispatcher("/jsp/dojo-portlet.jsp");
         prd.include(request, response);
     }

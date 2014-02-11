@@ -1,0 +1,22 @@
+@import url('../dojo-release-1.9.2-src/dijit/themes/claro/claro.css');
+
+div.dojoPortletContainer {
+    border: solid 1px #99C;
+    position: relative;
+    padding: 10px;
+    height: 38px;
+    margin: 0 7px 7px 7px;
+}
+div.dojoPortletContainer span {
+    font-size: 26px;
+    font-weight: bold;
+    opacity: 0;
+}
+
+div.dojoPortletWithButtonContainer {
+    border: solid 1px #99C;
+    position: relative;
+    padding: 10px;
+    height: 50px;
+    margin: 0 7px 7px 7px;
+}

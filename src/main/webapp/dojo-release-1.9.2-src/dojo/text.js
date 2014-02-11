@@ -3,7 +3,10 @@ define(["./_base/kernel", "require", "./has", "./has!host-browser?./request"], f
 	//		dojo/text
 
 	var getText;
-	if(has("host-browser")){
+
+    if(require.getText){
+        getText= require.getText;
+    }else if(has("host-browser")){
 		getText= function(url, sync, load){
 			request(url, {sync:!!sync}).then(load);
 		};
