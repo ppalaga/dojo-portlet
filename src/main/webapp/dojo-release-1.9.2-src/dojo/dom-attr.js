@@ -77,8 +77,8 @@ define(["exports", "./sniff", "./_base/lang", "./dom", "./dom-style", "./dom-pro
 		//	|		domAttr.get(dom.byId("nodeId"), "foo");
 		//	|		// or we can just pass the id:
 		//	|		domAttr.get("nodeId", "foo");
-		//	|	});
-		//	|
+		//	|	});	
+		//	|	
 
 		node = dom.byId(node);
 		var lc = name.toLowerCase(),
