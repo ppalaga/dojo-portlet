@@ -38,7 +38,7 @@
 
     <module>
         <name>dojoPortlet</name>
-        <amd/>
+        <native-amd>true</native-amd>
         <script>
             <path>/js/dojo-portlet.js</path>
         </script>
@@ -46,7 +46,7 @@
 
     <module>
         <name>dojoPortletWithButton</name>
-        <amd/>
+        <native-amd>true</native-amd>
         <script>
             <path>/js/dojo-portlet-with-button.js</path>
         </script>
